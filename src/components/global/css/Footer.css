@@ -1,0 +1,21 @@
+.Footer {
+  background-color: #222;
+  padding: 20px;
+  margin-left: -20px;
+  color: white;
+  position:fixed;
+  bottom:0px;
+  height:30px;
+  width: 100%
+}
+
+.Footer-logo img{
+  animation: Footer-logo-spin infinite 20s linear;
+  height: 40px;
+  text-align: center;
+}
+
+@keyframes Footer-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
